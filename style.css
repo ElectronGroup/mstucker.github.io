@@ -1,0 +1,75 @@
+body {
+  background-color: #06099E;
+  color: white;
+  font-family: 'Unica One', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+}
+
+p {
+  font-size: 150%;
+}
+
+a {
+  color: lime;
+  text-decoration: none;
+}
+
+#banner_image {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.middle_images {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.list_images{
+  width: 75%;
+}
+.col {
+  width: 45%;
+}
+
+.left_col {
+  float: left;
+}
+
+.right_col {
+  float: right;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
+li {
+  font-size: 175%;
+}
+
+#watch {
+  font-size: 250%;
+}
+
+.subtitle {
+  font-size: 200%;
+  font-weight: bold;
+ }
+ 
+@media (max-width: 500px) {
+  .col {
+    width: 95%;
+  }
+  iframe {
+    max-width: 95% !important;
+    padding: 0;
+  }
+}
